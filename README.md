@@ -15,13 +15,13 @@ A multi-party chat program using socket programming
 	* When a client connects to the server, the server lets the existing clients know that a new client has joined
 	* Commands
 		* `/who`: retrieve the user ID list of currently conntected users
-![who command](./images/who.png){: width="70%" height="70%"}
+![who command](./images/who.png)
 		* `/m user_ID message`: deliver ***message*** to ***user_ID*** (or show that ***user_ID*** does not exist)
-![m command](./images/m.png){: width="70%" height="70%"}
+![m command](./images/m.png)
 		* `/b message`: broadcast ***message*** to all connected users
-![b command](./images/b.png){: width="70%" height="70%"}
+![b command](./images/b.png)
 		* `/q`: terminate the client program and let all other users know that the client has left
-![q command](./images/q.png){: width="70%" height="70%"}
+![q command](./images/q.png)
 
 ### Design
 * Server
