@@ -3,6 +3,7 @@ Program Environment: Windows 10
 ## A Multi-Party Chat Program
 
 A multi-party chat program using socket programming
+
 ![Multi-Chat Program](./images/multi-chat.png)
 
 ### **Functionalities**
@@ -15,12 +16,16 @@ A multi-party chat program using socket programming
 	* When a client connects to the server, the server lets the existing clients know that a new client has joined
 	* Commands
 		* `/who`: retrieve the user ID list of currently conntected users
+
 ![who command](./images/who.png)
 		* `/m user_ID message`: deliver ***message*** to ***user_ID*** (or show that ***user_ID*** does not exist)
+
 ![m command](./images/m.png)
 		* `/b message`: broadcast ***message*** to all connected users
+
 ![b command](./images/b.png)
 		* `/q`: terminate the client program and let all other users know that the client has left
+
 ![q command](./images/q.png)
 
 ### Design
